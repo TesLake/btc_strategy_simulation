@@ -35,7 +35,7 @@ class BTCPriceAnalyzer:
         """
             ITERATES THROUGH EACH BITCOIN PRICE DATA AND DECIDES
             TO BUY WHEN:
-                EMA9 is above SMA7, PRICE below EMA50 and MACD HISTOGRAM is more than 3
+                EMA9 is above SMA7, PRICE above EMA50 and MACD HISTOGRAM is more than 3
             TO SELL WHEN:
                 MACD HISTOGRAM is less than -5.1 AND SMA10 BELOW EMA50
         """
